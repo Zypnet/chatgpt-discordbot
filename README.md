@@ -7,5 +7,11 @@ insert discord bot token then change `example.env` to `.env` <br />
 src/functions/handelCommands.js -> insert `clientId` <br />
 
 # Start bot
-`npm i discord.js dotenv` <br />
+`npm i discord.js dotenv openai` <br />
+`npm init` <br/>
+![npm init](https://cdn.discordapp.com/attachments/1076161681979351211/1076165910785708073/image.png)
+entry point: `src/index.js`
+test command: `node src/index.js`
+^^ these 2 should be like this otherwise you can't start bot
+you can type anything in package name, author description...
 `node .`
